@@ -3,6 +3,6 @@
 	<info organisation="" module="" />
 	<configurations defaultconf="default" />
 	<dependencies>
-		<dependency org="javax.servlet" name="servlet-api" rev="2.5" conf="source,runtime->default"/>
+		<dependency org="javax.servlet" name="servlet-api" rev="2.5"/>
 	</dependencies>
 </ivy-module>
