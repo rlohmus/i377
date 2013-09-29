@@ -21,7 +21,7 @@
 	<target name="war" depends="compile">
 		<war destfile="${war.file}" webxml="${webContent.dir}/WEB-INF/web.xml">
 			<classes dir="${classes.dir}" />
-			<fileset dir="${webContent.dir}"  />
+			<fileset dir="${webContent.dir}" excludes="**/servlet-api-jar­2.5.jar" />
 		</war>
 	</target>
 	
