@@ -81,6 +81,16 @@
     <servlet-name>InsertSamples</servlet-name>
     <url-pattern>/InsertSamples</url-pattern>
   </servlet-mapping>
+    <servlet>
+    <description></description>
+    <display-name>View</display-name>
+    <servlet-name>View</servlet-name>
+    <servlet-class>servlet.View</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>View</servlet-name>
+    <url-pattern>/View</url-pattern>
+  </servlet-mapping>
   <listener>
     <listener-class>listener.ServletContextInitializer</listener-class>
   </listener>

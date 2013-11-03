@@ -19,8 +19,10 @@
 	</path>
 	
 	<target name="war" depends="compile">
+		<copy file="${src.dir}/META-INF/persistence.xml" todir="${classes.dir}/META-INF" overwrite="true" />
 		<war destfile="${war.file}" webxml="${webContent.dir}/WEB-INF/web.xml">
 			<classes dir="${classes.dir}" />
+			
 			<fileset dir="${webContent.dir}" excludes="**/servlet-api-jar­2.5.jar" />
 			<zipfileset 
 				dir="${src.dir}" 

@@ -14,7 +14,6 @@
 		<li><a id="menu_Search" href="Search">Otsi</a></li>
 		<li><a id="menu_Add" href="Add">Lisa</a></li>
 		<li><a id="menu_ClearData" href="Delete?id=all">Tühjenda</a></li>
-		<li><a id="menu_InsertData" href="InsertSamples">Sisesta näidisandmed</a></li>
 	</ul>
 	<br />
 	<br />
